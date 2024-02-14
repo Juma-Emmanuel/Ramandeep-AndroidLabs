@@ -14,16 +14,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView mytext = findViewById(R.id.myTextViewId);
-        Button button = findViewById(R.id.myButton);
-        EditText myedit = findViewById(R.id.myedittext);
+//        TextView mytext = findViewById(R.id.myTextViewId);
 
-        button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                String editString = myedit.getText().toString();
-                mytext.setText( "Your edit text has: " + editString);
-            }
-        });
+
+
+
+
 
 
     }
